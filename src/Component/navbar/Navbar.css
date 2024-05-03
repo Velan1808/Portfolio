@@ -1,0 +1,50 @@
+.navbar{
+    margin: 0;
+    background-color: rgb(254, 129, 52);
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    margin-top: 0;
+    padding: 0px 20px;
+    padding-left: 20px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 1px 10px rgb(7, 7, 7);
+    z-index: 10;
+}
+.nav-name{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+.menu-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+.menu-list a{
+    text-decoration: none;
+}
+.menu-list a li{
+    color: black;
+    font-size: 18px;
+    background-color:white;
+    border-radius: 12px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.menu-list a li:hover{
+    background-color: rgb(250, 96, 0);
+    color: white;
+    transition: 0.2s;
+}
+ul a li .active{
+    background-color: white;
+    color: black ;
+}

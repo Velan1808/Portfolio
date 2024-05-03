@@ -1,0 +1,87 @@
+.skills{
+    margin: 20px;
+}
+.skills .heading{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.my_skills{
+    width: 75%;
+    margin-left: 8%;
+    justify-content: space-around;
+    display: grid; 
+    grid-template-columns: auto auto;
+    grid-gap:20px ;
+}
+.my_skills li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-basis: 50%;
+    margin-left: 30px;
+    font-size: 26px;
+    font-weight: 600;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 10px gray;
+}
+.my_skills li:first-child{
+    animation: icon 5s infinite ;
+    animation-delay: 0.5s;
+}
+.my_skills li:nth-child(2){
+    animation: icon 5s infinite ;
+    animation-delay: 0.5s;
+}
+.my_skills li:nth-child(3){
+    animation: icon 5s infinite ;
+    animation-delay: 2s;
+}
+.my_skills li:nth-child(4){
+    animation: icon 5s infinite ;
+    animation-delay: 2s;
+}
+.my_skills li:nth-child(5){
+    animation: icon 5s infinite ;
+    animation-delay: 2.5s;
+}
+.my_skills li:last-child{
+    animation: icon 5s infinite ;
+    animation-delay: 2.5s;
+}
+
+.my_skills li .icon{
+    width: 65px;
+    height: 65px;
+    margin-right: 20px;
+}
+.my_skills li .HTML{
+    color: rgb(248, 14, 14);
+}
+.my_skills li .CSS{
+    color: rgb(10, 66, 252);
+}
+.my_skills li .javascript{
+    color: rgba(181, 181, 3, 0.805);
+}
+.my_skills li .react{
+    color: rgb(0, 149, 255);
+}
+.my_skills li .tailwind{
+    color: rgb(4, 93, 228);
+}
+
+@keyframes icon{
+    0%{
+        transform: translateX(30px);
+    }
+    50%{
+        transform:  translateX(-30px);
+    }
+    100%{
+        transform:  translateX(30px);
+    }
+}

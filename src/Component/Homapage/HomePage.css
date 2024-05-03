@@ -1,4 +1,86 @@
-.Myimage{
+.homepage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.home-left{
+    display: flex;
+    flex-direction: column;   
+}
+.home-left h1 {
+    margin-left: 25px;
+    color: rgb(62, 61, 61);
+}
+.home-left h1 .name{
+    color: black;
+}
+.home-left h2{
+    color: rgb(181, 4, 4);
+    margin-top: -10px;
+}
+.social-icons{
+    width: fit-content;
+    padding: 8px 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 26px;
+    margin-left: 20px;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+.social-icons .icon{
+    font-size: 30px;
+    cursor: pointer;
+}
+.social-icons .icon .linkedin{
+    color: rgb(0, 68, 255);
+}
+.social-icons .icon .github{
+    color: rgb(3, 3, 3);
+}
+.social-icons .icon .whatsapp{
+    color: rgba(14, 207, 4, 0.81);
+}
+.social-icons .icon:hover{
+    transform: scale(2);
+    transition: 0.2s;
+}
+.home-left button{
+    background-color: rgb(23, 96, 254);
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 3px 8px;
+    width: fit-content;
+    border: none;
+    transition: 0.4s;
+    margin-top: 10px;
+    border-radius: 8px;
+    margin-left: 38px;
+}
+.home-left button:hover{
+    background-color: rgb(1, 81, 255);
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.home-right{
+    width: 40%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(71, 158, 244);
     border-radius: 25% 69% 29% 63% / 62% 71% 29% 32%;
 }
+.home-right img{
+    width: 250px;
+    border-radius: 20%;
+}
+
+    

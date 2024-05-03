@@ -1,0 +1,50 @@
+.project_card{
+    margin: 20px;
+    background-color:rgb(255, 133, 62);
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px black;
+    padding: 10px 15px;
+    height: 430px;
+    transition: 0.3s;
+}
+.project_card:hover{
+    background-color: white;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.project_card .card-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.project_card .card-top img{
+    width: 90%;
+    border-radius: 6px;
+}
+.technology{
+    margin-top: -6px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.details{
+    font-size: 16px;
+}
+.project-link{
+    display: flex;
+    justify-content: space-around;
+}
+.project-link a{
+    text-decoration: none;
+    background-color: rgb(0, 101, 253);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 7px;
+    transition: 0.2s;
+}
+.project-link a:hover{
+    background-color: rgb(255, 98, 0);
+    transition: 0.2s;
+}

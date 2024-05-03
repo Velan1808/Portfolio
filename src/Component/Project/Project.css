@@ -1,0 +1,15 @@
+.project{
+    margin: 20px 10px;
+    padding-top:50px;
+    background-color:  rgb(254, 146, 107);
+}
+.project .heading{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.project .project-item{
+    display: grid;
+    grid-template-columns:auto auto auto;
+    grid-gap: 20px;
+}
