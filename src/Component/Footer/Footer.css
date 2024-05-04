@@ -85,6 +85,7 @@
     padding: 6px 12px;
     font-size: 14px;
     color: black;
+    outline: rgb(253, 87, 27);
 }
 .footer-right form textarea{
     width: 92%;
@@ -102,3 +103,16 @@
     color: white;
     transition: 0.3s;
 }
+@media only screen and (min-width: 400px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+ }
+ @media only screen and (min-width: 600px){
+    .footer{
+        display: flex;
+        flex-direction: row;
+    }
+ }
