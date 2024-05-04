@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react'
+import './Footer.css'
 import emailjs from '@emailjs/browser';
 import { FaUserAlt } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
