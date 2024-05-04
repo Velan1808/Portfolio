@@ -4,7 +4,7 @@
     border-radius: 20px;
     box-shadow: 1px 1px 15px black;
     padding: 10px 15px;
-    height: 430px;
+    height: 460px;
     transition: 0.3s;
 }
 .project_card:hover{
