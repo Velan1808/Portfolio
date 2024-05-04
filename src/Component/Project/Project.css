@@ -1,7 +1,8 @@
 .project{
-    margin: 20px 10px;
-    padding-top:50px;
-    background-color:  rgb(254, 146, 107);
+    background-color: rgb(243, 237, 235);  
+    padding:20px 10px;
+    margin: 20px 30px;
+    border-radius: 10px;
 }
 .project .heading{
     display: flex;
@@ -13,3 +14,18 @@
     grid-template-columns:auto auto auto;
     grid-gap: 20px;
 }
+
+@media only screen and (min-width: 400px){
+    .project .project-item{
+        display: grid;
+        grid-template-columns:auto auto ;
+        grid-gap: 20px;
+    }
+ }
+ @media only screen and (min-width: 600px){
+    .project .project-item{
+        display: grid;
+        grid-template-columns:auto auto auto;
+        grid-gap: 20px;
+    }
+ }

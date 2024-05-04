@@ -1,7 +1,9 @@
 .about{
-    background-color: rgb(254, 146, 107);  
+    background-color: rgb(243, 237, 235);  
     padding-top: 20px;
     padding-bottom: 20px;
+    margin: 20px 30px;
+    border-radius: 10px;
 }
 .about-heading{
     display: flex;
@@ -36,12 +38,12 @@
 }
 @keyframes img_move{
     0%{
-        transform: translateY(10px)
+        transform: translateY(5px)
     }
     50%{
-        transform: translateY(-10px);
+        transform: translateY(-5px);
     }
     100%{
-        transform: translateY(10px) ;
+        transform: translateY(5px) ;
     }
 }

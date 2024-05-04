@@ -1,5 +1,9 @@
 .skills{
-    margin: 20px;
+    background-color: rgb(168, 166, 166);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px 30px;
+    border-radius: 10px;
 }
 .skills .heading{
     display: flex;

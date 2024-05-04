@@ -17,7 +17,7 @@ const HomePage = () => {
                 <div className='icon'> <a href="https://wa.me/916369961739"><FaWhatsappSquare className='whatsapp'/></a></div>
             </div>
 
-            <a href="VELAN_Resume.pdf" download="Resume.pdf"> <button className=''>View Resume</button></a>
+            <a href="VELAN_Resume.pdf" download="Resume.pdf"> <button className=''>Download Resume</button></a>
         </div>
 
         <div className='home-right' id='image'>

@@ -1,0 +1,104 @@
+.footer{
+    background-color: rgb(253, 86, 25);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px 30px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 10px;
+}
+.footer-left, .footer-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 12px;
+    box-shadow:  0 0 10 rgba(0,0,0,0.5);
+}
+.footer-left .my-details{
+    margin-top: -8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.footer-left .my-details p{
+    display: flex;
+    column-gap: 12px;
+}
+.contact-icon{
+    background-color: rgb(235, 233, 233);
+    padding: 8px 12px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 20px;
+}
+.contact-icon a .linkedin{
+    color: rgb(0, 68, 255);
+    width: 30px;
+    height: 30px;
+}
+.contact-icon a .github{
+    color: black;
+    width: 30px;
+    height: 30px;
+}
+.contact-icon a .whatsapp{
+    color: rgb(17, 255, 0);
+    width: 30px;
+    height: 30px;
+}
+.contact-icon a:hover{
+    transform: translateY(-5px);
+    transition: 0.2s;
+}
+
+.footer-right form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-right form .visited-details{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.footer-right form label{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(253, 82, 20);
+    display: block;
+    padding-bottom: 2px;
+    padding-left: 6px;
+}
+.footer-right form input, textarea{
+    background-color: rgb(241, 235, 235);
+    border: none;
+    border-radius: 12px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: black;
+}
+.footer-right form textarea{
+    width: 92%;
+}
+.footer-right form button{
+    padding: 4px 10px;
+    background-color: rgb(0, 119, 255);
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.footer-right form button:hover{
+    background-color: rgb(252, 80, 17);
+    color: white;
+    transition: 0.3s;
+}

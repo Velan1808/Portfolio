@@ -1,6 +1,6 @@
 .project_card{
     margin: 20px;
-    background-color:rgb(255, 133, 62);
+    background-color:rgb(255, 181, 137);
     border-radius: 20px;
     box-shadow: 1px 1px 15px black;
     padding: 10px 15px;
@@ -9,7 +9,7 @@
 }
 .project_card:hover{
     background-color: white;
-    transform: scale(1.1);
+    transform: scale(1.06);
     transition: 0.2s;
 }
 .project_card .card-top{
