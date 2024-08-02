@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    gap: 30px;
     align-items: center;
     background-color: rgb(227, 215, 215);
     padding-top: 20px;
@@ -81,27 +82,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image:linear-gradient(rgb(0, 89, 255),rgb(11, 149, 219), rgb(11, 149, 219), rgb(243, 237, 237),rgb(255, 255, 255));
-    border-radius: 16% 84% 46% 54% / 53% 46% 54% 47% ;
+    background-image:linear-gradient(#0059ff,rgb(11, 149, 219), rgb(11, 149, 219), rgb(243, 237, 237),rgb(255, 255, 255));
+    border-radius:84% 16% 43% 57% / 68% 67% 33% 32%   ;
     animation: img-move 6s infinite;
 }
-@keyframes img-move{
-    0%{
-        transform: translateY(-30px);
-    }
-    25%{
-        transform: translateX(30px);
-    }
-    50%{
-        transform: translateY(30px);
-    }
-    75%{
-        transform: translateX(-30px);
-    }
-    100%{
-        transform: translateY(-30px);
-    }
-}
+
 .home-right img{
     width:250px;
     border-radius:20px;
